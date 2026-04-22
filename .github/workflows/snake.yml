@@ -1,32 +1,33 @@
 name: Generate Snake
 on:
   schedule:
-    - cron: "0 0 * * *"  # 每天UTC 0点（北京时间8点）自动运行
-  workflow_dispatch:     # 允许手动触发（Actions页面点Run workflow）
+    - cron: "0 0 * * *"
+  workflow_dispatch:
   push:
-    branches: [main]     # 推送到main分支也触发
+    branches: [ main ]
 
 jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     permissions:
-      contents: write  # 必须给写入权限，才能提交生成的SVG
+      contents: write
     steps:
-      - name: Generate snake animation
+      - name: 拉取代码
+        uses: actions/checkout@v4
+
+      - name: 生成贪吃蛇SVG
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            snake.svg
+            snake-dark.svg?palette=github-dark
 
-      - name: Push to GitHub
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
-          publish_branch: main
-          force_orphan: false
+      - name: 提交&推送文件
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add *.svg
+          git diff --quiet && git diff --staged --quiet || git commit -m "update snake gif"
+          git push
