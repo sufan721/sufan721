@@ -14,3 +14,10 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+
+<!-- 白天模式显示 -->
+![Snake animation](https://github.com/sufan721/sufan721/blob/main/snake.svg#gh-light-mode-only)
+
+<!-- 黑夜模式显示 -->
+![Snake dark](https://github.com/sufan721/sufan721/blob/main/snake-dark.svg#gh-dark-mode-only)  
