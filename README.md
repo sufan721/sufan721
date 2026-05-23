@@ -1,14 +1,3 @@
-## Hi there 
-
-<h1 align="center">
-  <font color="#ff7b72">s</font><font color="#ffa94d">u</font><font color="#ffd43b">f</font><font color="#69db7c">a</font><font color="#74c0fc">n</font> 721 👋
-</h1>
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=500&color=F75C7E&center=true&vCenter=true&width=600&lines=✨欢迎来到我的Github✨;代码为笔·热爱为光;永远热烈·永远向前" />
-</p>
-
----
 
 <p align="center">
     <img height="42" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
