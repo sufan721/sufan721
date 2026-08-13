@@ -1,5 +1,9 @@
 
 <p align="center">
+  <img src="https://github.com/sufan721/sufan721/blob/main/docs/name.gif" alt="name.gif" />
+</p>
+
+<p align="center">
     <img height="42" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
     <img height="42" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
     <img height="42" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -29,9 +33,9 @@
   <a href="https://github.com/替换好友账号2">
     <img width="100" src="https://github.com/替换好友账号2.png" />
   </a>
-</p>
+</p>-->
 
-<p align="center">✨ 欢迎来找我互关、一起交流学习 ✨</p> -->
+<p align="center">✨ 欢迎来找我互关、一起交流学习 ✨</p> 
 
 <!-- 白天模式显示 -->
 ![Snake animation](https://github.com/sufan721/sufan721/blob/main/snake.svg#gh-light-mode-only)
