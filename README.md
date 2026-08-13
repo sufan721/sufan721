@@ -1,7 +1,19 @@
+<p align="left"> <img src="https://readme-typing-svg.demolab.com/?lines=Hi%2C+I'm+sufan;Embrace+change%2C+and+embrace+everything+AI+brings.&color=FF69B4&left=true&font=Fira+Code" alt="Typing SVG" /> </p>
 
 <p align="center">
   <img src="https://github.com/sufan721/sufan721/blob/main/docs/name.gif" alt="name.gif" />
 </p>
+
+
+### 🚀 About Me
+
+-  Passionate about programming, embracing all changes brought by AI 
+- Backend developer focused on LLM & AI Agent engineering.
+- Exploring RAG, Agent, MCP, Memory, Tool Calling and AI application
+- Feel free to reach out, follow and connect for mutual learning
+
+
+### 🛠️ Tech Stack
 
 <p align="center">
     <img height="42" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
@@ -14,7 +26,6 @@
     <img height="42" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" />
     <img height="42" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" />
     <img height="42" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
-    <img height="42" src="https://raw.githubusercontent.com/golang-samples/gopher-vector/master/gopher.svg" />
 </p>
 
 ---
@@ -35,7 +46,7 @@
   </a>
 </p>-->
 
-<p align="center">✨ 欢迎来找我互关、一起交流学习 ✨</p> 
+<p align="center">✨Feel free to follow me, let’s connect and learn together✨</p> 
 
 <!-- 白天模式显示 -->
 ![Snake animation](https://github.com/sufan721/sufan721/blob/main/snake.svg#gh-light-mode-only)
